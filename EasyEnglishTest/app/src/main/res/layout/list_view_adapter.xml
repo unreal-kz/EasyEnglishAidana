@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.unreal_kz.easyenglishtest.adapters.MyAdapter">
+
+    <TextView
+        android:id="@+id/text_citation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textColor="#000000"
+        android:text="Citation"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:textColor="#556666"
+        android:id="@+id/author_citation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:textStyle="bold"
+        android:gravity="end"
+        android:text="Author"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
